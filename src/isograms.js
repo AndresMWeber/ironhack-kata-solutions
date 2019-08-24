@@ -1,3 +1,3 @@
 function isIsogram(str){
-  return Array(...new Set(str.toLowerCase())).length === str.length 
+  return new Set(str.toLowerCase()).size === str.length 
 }
